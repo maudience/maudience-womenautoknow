@@ -1,0 +1,1 @@
+<?php do_action( 'wak_my_reviews_author_tab' ); ?>

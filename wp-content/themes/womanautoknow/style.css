@@ -1,0 +1,1264 @@
+/*
+Theme Name: WomenAutoKnow
+Theme URI: http://www.womenautoknow.com
+Author: Maudience
+Author URI: http://www.maudience.com/
+Description: Custom WordPress theme developed for WAK.
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: pink, cars, automobile, service
+Text Domain: wak
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html, body {
+	background-color: #f1f1f1;
+	overflow-x: hidden;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+body .row { margin-left: 0; margin-right: 0; }
+a, a:hover {
+	color: #161C63;
+	color: rgb(22,28,99);
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #dedede;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #dedede;
+   opacity: 0.5;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #dedede;
+   opacity: 0.5;
+}
+:-ms-input-placeholder    
+    color: #dedede;
+    opacity: 0.5;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    
+    color: #dedede;
+}
+/**
+ * 1.0 Structure
+ */
+
+.outer-wrapper,
+div.full,
+div.boxed {
+    width: 100%;
+    clear: both;
+    float: none;
+}
+#body .vc_row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.wpb_video_wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.btn-default,
+.btn-danger,
+.btn-warning,
+.btn-info,
+.btn-success,
+body .alert-success,
+body .alert-info,
+body .alert-warning,
+body .alert-danger {
+    background-image: none;
+}
+.btn-danger {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #EC008B;
+    background: rgb(236, 0, 139);
+    background-color: #EC008B;
+    background-color: rgb(236, 0, 139);
+    border: none;
+    border-radius: 24px;
+}
+body .btn {
+    border: none !important;
+    border-radius: 0;
+}
+body .btn-xs {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:focus {
+    background: #FA92CF;
+    background: rgb(250, 146, 207);
+}
+h1,
+h2,
+h3,
+h4,
+.blue {
+    color: #161C63;
+    color: rgb(22, 28, 99);
+    margin-top: 0;
+}
+.blue-button {
+    border-color: #161C63;
+    background-color: #161C63;
+    background-color: rgb(22, 28, 99);
+    color: white;
+}
+.blue-button:hover,
+.blue-button:active,
+.blue-button:visited {
+    color: white;
+    text-shadow: none;
+}
+.jumbotron > img.pull-left {
+    max-width: 180px;
+    height: auto;
+    margin-right: 24px;
+}
+.modal .modal-dialog {
+    padding-top: 24px;
+    z-index: 1060;
+    border: none;
+}
+.modal .modal-dialog .close {
+    opacity: 1;
+    text-shadow: none;
+    color: #dedede;
+}
+.modal .modal-dialog .modal-title {
+    letter-spacing: 1px;
+}
+.modal .modal-dialog .modal-title i {
+	margin-right: 12px;
+}
+.modal .modal-dialog .modal-body {
+    color: #333;
+    padding: 15px;
+}
+.modal .modal-dialog .modal-body > form {
+    padding: 0 !important;
+}
+.modal .modal-dialog .modal-content {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+.modal.fade {
+    background-color: rgba(255,255,255,0.5);
+}
+.modal .modal-dialog .modal-content .row.slim {
+    margin-bottom: 0 !important;
+}
+.modal .modal-dialog .modal-content form .form-control.short {
+    width: 30%;
+}
+.modal .modal-dialog .modal-content form .form-control.half {
+    width: 50%;
+}
+.modal .modal-dialog .modal-content form .form-control.mini {
+    width: 60px;
+}
+.modal .row.push-down {
+    margin-bottom: 24px;
+}
+.modal .row.flat {
+    margin-bottom: 0;
+}
+.modal form .nav-tabs > li.active > a,
+.modal form .nav-tabs > li.active > a:hover,
+.modal form .nav-tabs > li.active > a:focus,
+.modal form .nav-tabs.nav-justified > .active > a {
+    background-color: white;
+    border-bottom-color: white;
+}
+.modal .billing-address-fields input {
+    margin-bottom: 6px;
+}
+label.terms {
+    font-weight: normal;
+}
+#wak-profile-tab-wrap > .active {
+    padding: 0 0 0 0;
+}
+body .bg-danger {
+    background-color: #EC008B;
+    background-color: rgb(236, 0, 139);
+    color: white;
+}
+#website-header {
+    background-color: white;
+    padding: 24px 0 12px 0;
+}
+#website-header #logo img {
+    width: 90px;
+    height: auto;
+}
+
+#website-header #top-row ul li {
+    font-size:12px;
+    line-height: 18px;
+}
+
+#website-header #top-row {
+    font-size: 12px;
+    line-height: 18px;
+    color: #dedede;
+    min-height: 18px;
+    margin-bottom: 14px;
+}
+#website-header #top-row ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style-type: none;
+    display: block;
+    float: none;
+    clear: both;
+}
+#website-header #top-row ul li {
+    display: block;
+    float: right;
+    margin: 0 0 0 24px;
+}
+#website-header #top-row ul li strong,
+body .pink {
+    color: #EC008B;
+    color: rgb(236, 0, 139);
+}
+#website-header nav {
+    z-index: 999;
+}
+#website-header nav ul li.right {
+    float: right;
+    margin-right: 0;
+}
+#website-header nav ul li.right a.click {
+    color: white;
+    background-color: #EC008B;
+    background-color: rgb(236, 0, 139);
+}
+#website-header nav ul li.right.selected a,
+#website-header nav ul li.current a {
+    background-color: #f1f1f1;
+}
+#website-header nav ul li.right.selected a {
+    color: #333;
+}
+#website-header nav ul li.dashboard a {
+    background-color: white;
+    color: rgb(236, 0, 139);
+    padding: 0 0 0 0;
+}
+#website-header nav ul li.dashboard span {
+    color: rgb(236, 0, 139);
+}
+#website-header nav ul li.dashboard span:before {
+    font-size: 24px;
+    line-height: inherit;
+}
+#website-header nav:after,
+#website-header nav > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+#website-header nav #menu-button {
+    display: none;
+}
+#website-header nav ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    min-height: 24px;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#website-header nav > ul > li {
+    float: left;
+    margin-right: 6px;
+}
+#website-header nav.align-center > ul {
+    font-size: 0;
+    text-align: center;
+}
+#website-header nav.align-center > ul > li {
+    display: inline-block;
+    float: none;
+}
+#website-header nav.align-center ul ul {
+    text-align: left;
+}
+#website-header nav.align-right > ul > li {
+    float: right;
+}
+#website-header nav.align-right ul ul {
+    text-align: right;
+}
+#website-header nav > ul > li > a {
+    padding: 8px;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#website-header nav > ul > li:hover > a,
+#website-header nav > ul > li.active > a {
+    color:#EC008B;
+}
+
+#website-header nav ul li.right a:hover {
+	color:#161C63;
+}
+
+#website-header nav > ul > li.page_item_has_children > a::after,
+#website-header nav ul ul li.page_item_has_children > a::after {
+    display: none;
+}
+#menu-line {
+    display: none;
+}
+#website-header nav > ul > li.page_item_has_children > a {}
+#website-header nav ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 99999;
+}
+#website-header nav li:hover > ul {
+    left: auto;
+    padding-top: 12px;
+}
+#website-header nav.align-right li:hover > ul {
+    right: 0;
+}
+#website-header nav ul ul ul {
+    margin-left: 100%;
+    top: 0;
+}
+#website-header nav.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%;
+}
+#website-header nav ul ul li {
+    height: 0;
+    -webkit-transition: height .2s ease;
+    -moz-transition: height .2s ease;
+    -ms-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease;
+}
+#website-header nav ul li:hover > ul > li {
+    min-height: 32px;
+	background: #f1f1f1;
+}
+#website-header nav ul ul li a {
+    display: block;
+    margin: 0;
+    padding: 20px 20px;
+	min-width:160px;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+	background: #EC008B;
+	border-bottom: 2px #ffffff solid;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#website-header nav ul ul li:hover > a,
+#website-header nav ul ul li a:hover {
+    color: #ffffff;
+}
+#website-header nav ul ul li.page_item_has_children > a::after {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    content: "";
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+#website-header nav.align-right ul ul li.page_item_has_children > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+#website-header nav ul ul li.page_item_has_children:hover > a::after {
+    border-color: #ffffff;
+}
+#footer-social-links a { display: block; float: left; line-height: 32px; margin-right: 24px; font-size: 28px; }
+@media all and (max-width: 768px),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 768px),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 768px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 768px),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 768px),
+only screen and (min-resolution: 192dpi) and (max-width: 768px),
+only screen and (min-resolution: 2dppx) and (max-width: 768px) {
+    #website-header nav {
+        width: 100%;
+        z-index: 9999;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: white;
+        
+    }
+    #website-header nav ul {
+        width: 100%;
+        display: none;
+    }
+    #website-header nav.align-center > ul,
+    #website-header nav.align-right ul ul {
+        text-align: left;
+    }
+    #website-header nav ul li,
+    #website-header nav ul ul li,
+    #website-header nav ul li:hover > ul > li {
+        width: 100%;
+        height: auto;
+        border-top: 1px solid rgba(120, 120, 120, 0.15);
+        line-height: 40px;
+    }
+    #website-header nav ul li a,
+    #website-header nav ul ul li a {
+        width: 100%;
+    }
+    #website-header nav > ul > li,
+    #website-header nav.align-center > ul > li,
+    #website-header nav.align-right > ul > li {
+        float: none;
+        display: block;
+    }
+    #website-header nav li:hover > ul {
+	    padding-top: 0;
+	}
+    #website-header nav ul ul li a {
+        padding: 0 24px;
+        font-size: 12px;
+        color: #000000;
+        background: none;
+    }
+    #website-header nav ul ul li:hover > a,
+    #website-header nav ul ul li a:hover {
+        color: #000000;
+    }
+    #website-header nav ul ul ul li a {
+        padding-left: 40px;
+    }
+    #website-header nav ul #wak-dashboard-link, #website-header nav ul .social-media-item {
+    	display: none !important;
+    }
+    #user-navigation .col-xs-6 {
+    	min-height: inherit;
+    	padding: 12px 0;
+    }
+    #website-header nav ul ul,
+    #website-header nav ul ul ul {
+        position: relative;
+        left: 0;
+        right: auto;
+        width: 100%;
+        margin: 0;
+    }
+    #toggle-my-account-wrap a, #wak-signup-top-link a {
+    	display: block;
+    }
+    #toggle-my-account-wrap, #wak-signup-top-link {
+    	background-color: #EC008B;
+    }
+    #toggle-my-account-wrap.selected {
+    	background-color: #f1f1f1;
+    }
+    #website-header nav #menu-button {
+        display: block;
+        padding: 20px;
+        color: #ff00a2;
+        cursor: pointer;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 40px;
+    }
+    #website-header #top-row { display: none; }
+    #website-header nav .submenu-button {
+        position: relative;
+        z-index: 10;
+		float: right;
+        display: block;
+        border-left: 1px solid rgba(120, 120, 120, 0.15);
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+    }
+    #website-header nav ul#menu-top-menu-visitors {
+    	position: absolute;
+    	top: 76px;
+    	right: -15px;
+    	z-index: 999;
+    	background-color: #EC008B;
+    	border-top: none;
+    }
+    #website-header nav ul#menu-top-menu-visitors a {
+    	color: white;
+    }
+    #website-header nav ul#menu-top-menu-visitors li.right {
+    	display: none;
+    }
+    #website-header nav .submenu-button::after {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        display: block;
+        width: 1px;
+        height: 11px;
+        background: #000000;
+        z-index: 99;
+    }
+    #website-header nav .submenu-button::before {
+        content: '';
+        position: absolute;
+        left: 15px;
+        top: 20px;
+        display: block;
+        width: 11px;
+        height: 1px;
+        background: #000000;
+        z-index: 99;
+    }
+    #website-header nav .submenu-button.submenu-opened:after {
+        display: none;
+    }
+    #user-navigation.member { position: fixed; bottom: 0; z-index: 9999; display: block !important; }
+	#user-navigation.member i { font-size: 20px; margin: 0 auto; }
+	#user-navigation.member a { text-align: center; }
+	#user-navigation.member a span, #wak-sort-results { display: none; }
+	#user-navigation.member > .boxed > .row > div > .row > div { min-height: auto !important; padding-left: 0; padding-right: 0; padding-top: 12px; padding-bottom: 12px; }
+	#user-navigation.member > .boxed > .row > div > .row { padding: 6px 0 !important; }
+	#user-navigation.member > .boxed > .row > div { padding-left: 0; padding-right: 0; }
+	#locate-autoshop h3 { padding-left: 12px; padding-right: 12px; }
+	#wak-shop-type-ledger { margin-bottom: 24px; }
+	div.wak-autoshop-rating img { width: 80px; height: auto; }
+	.autoshops .wak-autoshop-rating { float: none; margin-bottom: 6px; }
+	.user-login .top-curve { display: none; }
+}
+#user-navigation {
+    background-color: #EC008B;
+    background-color: rgb(236, 0, 139);
+}
+#user-navigation.visitor {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #dedede;
+}
+#user-navigation i {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    line-height: 42px;
+    height: 42px;
+    width: 42px;
+    margin: 0 auto 6px auto;
+}
+#wak-profile-tab-subnav {
+	padding-top: 24px;
+}
+#wak-profile-tab-nav, #wak-profile-tab-subnav {
+    border: none;
+}
+#wak-profile-tab-nav i, #wak-profile-tab-subnav i {
+    margin-right: 12px;
+}
+#wak-profile-tab-nav.nav-tabs > li, #wak-profile-tab-subnav.nav-tabs > li {
+    border-bottom: 1px solid #dedede;
+}
+#wak-profile-tab-nav.nav-tabs > li strong, #wak-profile-tab-subnav.nav-tabs > li strong {
+    line-height: 32px;
+}
+#wak-profile-tab-nav.nav-tabs > li > a:hover, #wak-profile-tab-subnav.nav-tabs > li > a:hover {
+    background-color: transparent;
+}
+#wak-profile-tab-nav.nav-tabs > li > a:hover i, #wak-profile-tab-nav .badge, #wak-profile-tab-subnav.nav-tabs > li > a:hover i {
+    background-color: transparent;
+    color: #333;
+}
+#wak-profile-tab-nav.nav-tabs.nav-justified > .active > a,
+#wak-profile-tab-nav.nav-tabs.nav-justified > .active > a:hover,
+#wak-profile-tab-nav.nav-tabs.nav-justified > .active > a:focus, 
+#wak-profile-tab-subnav.nav-tabs.nav-justified > .active > a,
+#wak-profile-tab-subnav.nav-tabs.nav-justified > .active > a:hover,
+#wak-profile-tab-subnav.nav-tabs.nav-justified > .active > a:focus {
+    border: none !important;
+}
+#wak-profile-tab-subnav a:hover {
+	border-bottom-color: transparent;
+}
+#user-navigation a span,
+#wak-profile-tab-nav a span, 
+#wak-profile-tab-subnav a span {
+    padding: 0 0 0 12px;
+    font-weight: bold;
+}
+#user-navigation a {
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+}
+#wak-profile-tab-nav a {
+    display: block;
+    border: none;
+}
+#wak-logout {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+#wak-logout > li {
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    float: none;
+    margin-top: 2px;
+    margin-left: 0;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+#wak-logout > li a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    position: relative;
+    padding: 10px 15px;
+    display: block;
+}
+#wak-logout i {
+    margin-right: 12px;
+}
+#user-navigation a:hover i,
+#wak-profile-tab-nav a:hover i,
+body .blue {
+    color: #161C63;
+    color: rgb(22, 28, 99);
+}
+.user-related .top-curve {
+    width: 100px;
+    height: 20px;
+    display: block;
+    float: right;
+    margin-top: -20px;
+    background-color: #EC008B;
+}
+body.author .user-related .top-curve {
+    background-color: #f1f1f1;
+}
+.user-login .top-curve {
+    width: 68px;
+    height: 20px;
+    display: block;
+    float: right;
+    margin-top: -20px;
+    background-color: #f1f1f1;
+}
+.user-related .top-curve > div {
+    display: block;
+    width: 50px;
+    height: 20px;
+    background-color: white;
+}
+.user-login .top-curve > div {
+    display: block;
+    width: 34px;
+    height: 20px;
+    background-color: white;
+}
+.user-login .top-curve .left-curve,
+.user-related .top-curve .left-curve {
+    float: left;
+    border-bottom-right-radius: 20px;
+}
+.user-login .top-curve .right-curve,
+.user-related .top-curve .right-curve {
+    float: right;
+    border-bottom-left-radius: 20px;
+}
+.user-related .wak-autoshop-rating {
+    float: right;
+}
+.user-related > .boxed > .row > div > .row {
+    padding: 24px 0;
+}
+.user-related #profile-picture {
+    display: block;
+    float: left;
+    text-align: center;
+}
+.user-related img.avatar {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+.user-related .column-header {
+    padding: 12px 0 0 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+.user-related .column-header span {
+    display: block;
+    font-size: 32px;
+    line-height: 36px;
+    color: #EC008B;
+    color: rgb(236, 0, 139);
+}
+.user-related .push-left {
+    margin-left: 136px;
+}
+.user-related .user-actions {
+    padding-top: 12px;
+}
+.user-related .user-actions a {
+    width: 99%;
+    margin-bottom: 6px;
+}
+.user-related .notice {
+    font-size: 12px;
+    line-height: 18px;
+}
+.user-related .notice h4,
+p.no-recalls {
+    margin: 0 0 0 0;
+    line-height: 36px;
+    color: #EC008B;
+    color: rgb(236, 0, 139);
+}
+.user-related .notice h4 span {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 16px;
+}
+#user-profile {
+    padding: 48px 0;
+}
+#user-profile .border-right {
+    padding-right: 14px;
+    border-right: 1px solid #dedede;
+}
+#my-wak-cars, #my-wak-cars .my-car-wrap {
+    padding-top: 140px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#my-wak-cars .blue-car {
+    background-image: url(images/wak-car-blue.png);
+}
+#my-wak-cars .red-car {
+    background-image: url(images/wak-car-red.png);
+}
+#my-wak-cars .my-car-wrap .status {
+    font-size: 48px;
+    line-height: 62px;
+    color: #dedede;
+}
+#my-wak-cars .my-car-wrap h1 {
+    border-bottom: 1px solid #dedede;
+    line-height: 58px;
+}
+#my-wak-cars .my-car-wrap h5 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+#my-wak-cars .my-car-wrap p.mi {
+    font-size: 10px;
+    line-height: 18px;
+}
+#my-wak-review-list {
+    padding-top: 24px;
+}
+#my-wak-review-list article h5 {
+    padding: 12px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    margin-bottom: 0;
+}
+#my-wak-review-list article .arrow-down {
+    margin-left: 48px;
+    margin-bottom: 6px;
+}
+#my-wak-review-list img {
+    border: none;
+}
+#my-wak-review-list p {
+    font-size: 10px;
+    line-height: 24px;
+    font-style: italic;
+}
+#wak-edit-my-profile-form .widget {
+    margin-bottom: 12px;
+}
+#wak-edit-my-profile-form .push-down {
+    margin-bottom: 24px;
+}
+#profile-header {
+    padding-top: 48px;
+}
+body .tab-content > .active {
+    padding: 15px;
+}
+body .nav-tabs > li.active > a,
+body .nav-tabs > li.active > a:hover,
+body .nav-tabs > li.active > a:focus,
+body .nav-tabs.nav-justified > .active > a {
+    color: #EC008B;
+    color: rgb(236, 0, 139);
+    font-weight: bold;
+    background-color: #f1f1f1;
+    border-bottom-color: #f1f1f1;
+}
+#wak-min-profile-tab-nav .active > a {
+    border-bottom-color: #f1f1f1;
+}
+#main-content {
+    padding-bottom: 48px;
+}
+.object-thumb img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+.widget .widget-title {
+    margin: 0 0 6px 0;
+    padding: 0 0 12px 0;
+    border-bottom: 1px solid #161C63;
+}
+.widget form .form-group {
+    margin-bottom: 6px;
+}
+#sidebar .widget {
+    margin-bottom: 24px;
+}
+#website-footer {
+    background-color: white;
+    color: #161C63;
+    color: rgb(22, 28, 99);
+    padding: 24px 0;
+}
+#website-footer ul {
+    padding-left: 24px;
+}
+#website-footer a:hover {
+    color: #EC008B;
+    color: rgb(236, 0, 139);
+}
+#website-footer .vertical {
+    padding-top: 34px;
+}
+#website-footer img.medium {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+#website-footer #company-details {
+    padding-left: 40%;
+}
+#legal {
+    background-color: #000C55;
+    background-color: rgb(0, 12, 85);
+    color: white;
+    padding: 12px 0;
+    font-size: 12px;
+    line-height: 24px;
+    border-top: 5px solid #000080;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid white;
+}
+#logo { display: block; text-align: center; margin: 0 auto; }
+#website-cc { padding: 0 12px; }
+
+/**
+ * 10.1 Mobile Large 620px
+ */
+
+@media screen and (min-width: 38.75em) {
+	#logo { text-align: left; margin: 0 0 0 0; }
+    #wak-public-profile #profile-header img {
+        width: 64px;
+        height: 64px;
+    }
+}
+/**
+ * 10.2 Tablet Small 740px
+ */
+
+@media screen and (min-width: 46.25em) {
+    #header .boxed {
+        padding: 24px 0 12px 0;
+    }
+    #site-navigation {
+        padding: 6px 0 0 0;
+    }
+    #logo {
+        padding-top: 12px;
+    }
+    .user-related > .boxed > .row > div > .row > div {
+        min-height: inherit;
+    }
+}
+/**
+ * 10.3 Tablet Large 880px
+ */
+
+@media screen and (min-width: 55em) {
+    body { padding: 0; }
+    #wak-public-profile #profile-header img {
+        width: 128px;
+        height: 128px;
+    }
+}
+/**
+ * 10.4 Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+	body { padding: 0; }
+    div.full,
+    div.boxed {
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+/**
+ * 10.5 Desktop Medium 1100px
+ */
+
+@media screen and (min-width: 68.75em) {
+	body { padding: 0; }
+    div.full,
+    div.boxed {
+        width: 1024px;
+        margin: 0 auto;
+    }
+}
+/**
+ * 10.6 Desktop Large 1240px
+ */
+
+@media screen and (min-width: 77.5em) {
+	body { padding: 0; }
+    div.full,
+    div.boxed {
+        width: 1024px;
+        margin: 0 auto;
+    }
+}
+/**
+ * 10.8 Print
+ */
+
+@media print {}
+
+/* Maudience CSS */
+
+.media-logos h2 {
+	font-size:18px;
+}
+
+.rev-button a {
+	padding:8px 15px;
+	background-color:#EC008B;
+	border: 3px solid #EC008B;
+	color: #ffffff;
+}
+
+.rev-button a:hover {
+	color: #181E64;
+}
+
+.rev-button-secondary a {
+	padding:8px 15px;
+	border: 3px solid #EC008B;
+	color: #ffffff;
+}
+
+.rev-button-secondary a:hover {
+	color: #ffffff;
+	border: 3px solid #ffffff;
+}
+
+
+#main-content {
+    padding-bottom: 48px;
+}
+
+h2 {
+	font-size:24px;
+	line-height:32px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 9px;
+}
+
+p {
+    font-size:16px;
+    line-height: 20px;
+}
+
+p a { font-weight: bold; }
+
+ul li {
+    font-size:16px;
+    line-height: 28px;
+}
+.social-text a {
+	font-size: 12px;
+	text-align: center;
+}
+
+.border-top { /*Border Seperator*/
+	border-top: 1px solid #282828;
+	padding-top: 35px;
+}
+
+.wak-profile-nav {
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+#recent-posts-2.col-md-6, #categories-2.col-md-6 {
+	width: 100%;
+}
+
+#recent-posts-2 ul, #categories-2 ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#recent-posts-2 ul li, #categories-2 ul li {
+	border-bottom: 1px solid #5C5C5C;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+#recent-posts-2 ul li a:hover, #categories-2 ul li a:hover {
+	color: #EC008B;
+}
+body.top-content-margin #the-content {
+	padding: 48px 0;
+}
+.wpb_wrapper img {
+	max-width: 100%;
+	height: auto;
+}
+.white-links a, .white-links:hover, .white-links:active, .white-links:visited {
+	color: white !important;
+}
+#the-content .white-links {
+	background-position: top right !important;
+}
+.sidebar-left #sidebar {
+	padding-top: 48px;
+}
+#wak-loginform .form-control {
+	border-color: #EC008B;
+	margin-right: 6px;
+	height: 32px;
+}
+#wak-loginform small { display: block; font-size: 10px; }
+#the-content .ss-social-sharing > span { display: block; padding-top: 12px; border-top: 1px solid #dedede; }
+@media (max-width: 350px) {
+	.outer-wrapper .boxed > .row, .outer-wrapper .boxed footer > .row, #the-content .vc_row {
+		margin-left: 0; margin-right: 0;
+	}
+	.user-related img.avatar, #wak-public-details {
+		display: none;
+	}
+	#user-profile {
+		padding: 24px 0;
+	}
+	a.btn {
+		font-size: 10px;
+	}
+	.spent-on-car h1 {
+		text-align: center;
+		margin-bottom: 24px;
+	}
+	.cars {
+		padding-bottom: 12px;
+	}
+	#wak-public-details > img.avatar, #search-wak-tabs .nav-tabs {
+		display: none;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	#wak-autoshop-search-box h3 {
+		 text-align: center;
+	}
+	#wak-locate-auto-name {
+		margin-bottom: 12px;
+	}
+	#wak-shop-type-ledger p {
+		line-height: 12px;
+		font-size: 10px;
+		text-align: center;
+	}
+	#website-header nav { width: 100%; line-height: 32px; position: relative; }
+	#website-header nav #menu-button { padding: 12px 0; text-align: right; font-size: 32px; }
+	header .col-xs-12 { padding-left: 0; padding-right: 0; }
+	#website-header #logo img { width: 100%; }
+	#wak-loginform h2 { font-size: 20px; }
+	#wak-loginform input[type="text"], #wak-loginform input[type="password"] { margin-bottom: 24px; }
+	#user-navigation.member { position: fixed; bottom: 0; z-index: 9999; display: block !important; }
+	#user-navigation.member i { font-size: 20px; margin: 0 auto; }
+	#user-navigation.member a { text-align: center; }
+	#user-navigation.member a span, #wak-sort-results { display: none; }
+	#user-navigation.member > .boxed > .row > div > .row > div { min-height: auto !important; padding-left: 0; padding-right: 0; }
+	#user-navigation.member > .boxed > .row > div > .row { padding: 6px 0 !important; }
+	#user-navigation.member > .boxed > .row > div { padding-left: 0; padding-right: 0; }
+	#wak-shop-type-ledger img { margin: 0 auto 6px auto; display: block; float: none; }
+	#list-of-autoshops { padding-left: 0; padding-right: 0; padding-top: 24px; }
+	#list-of-autoshops .row { margin-bottom: 12px; }
+	.autoshops .wak-autoshop-rating { float: none; margin-bottom: 6px; }
+	div.wak-autoshop-rating img { width: 80px; height: auto; }
+	#locate-autoshop { padding: 0 0 15px 0; }
+	.autoshops { margin-bottom: 0; padding-bottom: 12px; padding-top: 12px; }
+	#user-profile #the-content, #wak-users-reviews .row .col-md-12 { padding-left: 0; padding-right: 0; }
+	blockquote { padding: 10px 10px 10px 10px; }
+	blockquote footer { font-size: 50%; }
+	.user-login .top-curve { display: none; }
+	#wak-signup .nav li { font-size: 12px; width: 50%; float: left; }
+	#wak-signup .nav li a { background-color: white; border-radius: 4px; margin: 0 6px; border-color: white !important; }
+	#wak-signup input[type="submit"] { width: 100%; }
+	#drivers form, #autoshop form { width: 100%; margin: 0 0 0 0; }
+}
+#blog-roll article {
+	margin-bottom: 24px;
+	border: 1px solid #ccc;
+	background-color: #dedede;
+	padding: 24px;
+}
+#blog-roll article h2 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 12px;
+	line-height: 27px;
+	padding-bottom: 6px;
+}
+#blog-roll article small {
+	display: block;
+	margin-bottom: 12px;
+	color: #ccc;
+}
+#blog-roll article small > span {
+	padding-right: 12px;
+}
+#blog-roll article img {
+	width: 100%;
+	height: auto;
+}
+#blog-roll article p {
+	margin-bottom: 0;
+}
+#blog-roll .read-more {
+	display: block;
+	margin-top: 12px;
+	text-align: right;
+}
+.row .col-md-4 .row .col-lg-12 img { margin-bottom: 12px; }
+#category-list {
+	margin-bottom: 32px;
+}
+#category-list ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style-type: none;
+	display: block;
+	clear: both;
+	float: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#category-list ul li {
+	display: inline;
+	padding: 0 12px;
+	margin: 0 0 0 0;
+	border-right: 1px solid #ccc;
+	font-size: 12px;
+	line-height: 22px;
+}
+#category-list ul li:last-child {
+	border-right: none;
+}
+#category-list ul li.current-cat a {
+	color: #EC008B;
+	color: rgb(236, 0, 139);
+}
+#user-navigation .wp-social-login-connect-with { display: none; }
+.wp-social-login-connect-with { font-size: 12px; line-height: 32px; margin-bottom: 24px; }
+.wp-social-login-widget .wp-social-login-provider-list { padding: 0 0 0 0; float: none; clear: both; min-height: 48px; }
+.wp-social-login-provider-list .wp-social-login-provider { padding: 12px 24px; color: white; font-size: 14px; text-transform: uppercase; line-height: 14px; margin: 12px; letter-spacing: 1px; }
+
+.wp-social-login-provider-list .wp-social-login-provider.wp-social-login-provider-facebook { background-color: #3b5998; }
+.wp-social-login-provider-list .wp-social-login-provider.wp-social-login-provider-google { background-color: #dd4b39; }
+.wp-social-login-provider-list .wp-social-login-provider.wp-social-login-provider-twitter { background-color: #00aced; }
