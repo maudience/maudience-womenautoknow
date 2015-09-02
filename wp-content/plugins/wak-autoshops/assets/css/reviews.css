@@ -1,0 +1,30 @@
+#wak-reviews form { padding: 0 0 0 0; }
+
+.autoshops .wak-autoshop-rating { float: right; }
+body.single-autoshops .wak-autoshop-rating { margin-bottom: 12px; }
+
+div.wak-autoshop-rating img { width: 160px; height: auto; }
+div.wak-users-autoshop-rating img { width: auto; height: 24px; margin-bottom: 6px; }
+
+div.review-list .item { margin-bottom: 24px; }
+
+article.autoshops .carousel-indicators li { border-color: #dedede; }
+article.autoshops .carousel-indicators .active { background-color: #dedede; }
+article.autoshops .carousel-inner p { font-size: 10px; line-height: 24px; font-style: italic; }
+
+#wak-users-reviews .widget { margin-top: 12px; margin-bottom: 24px; }
+
+#wak-modal-new-review-wrap .modal, body.modal-open { padding-right: 0px !important; }
+#wak-modal-new-review-wrap .modal { top: 48px; left: 25%; width: 50%; }
+#wak-modal-new-review-wrap .modal-header { background-color: #f1f1f1; }
+#wak-modal-new-review-wrap .modal-header.pledged { background-color: #EC008B; }
+#wak-modal-new-review-wrap .modal-header button span { color: #000; }
+#wak-modal-new-review-wrap .modal-header.pledged h4, #wak-modal-new-review-wrap .modal-header button span { color: white; }
+#wak-modal-new-review-wrap .modal-body { color: #333; }
+
+#wak-modal-new-review-wrap form { margin-bottom: 0; }
+#wak-modal-new-review-wrap form .form-group.slim { margin-bottom: 0; }
+
+#add-new-wak-review .row p { font-size: 12px; }
+#add-new-wak-review .row .inline-radio { display: block; float: left; width: 20%; padding-top: 12px; }
+#add-new-wak-review .row .inline-radio img { width: 85px; height: auto; display: block; }

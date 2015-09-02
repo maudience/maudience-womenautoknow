@@ -1,0 +1,43 @@
+#wak-my-cars .widget { margin-top: 12px; margin-bottom: 24px; }
+.cars { padding-bottom: 50px; }
+#wak-my-cars > div.row { border-bottom: 1px solid #dedede; margin-bottom: 24px; }
+#wak-my-cars address { font-size: 14px; line-height: 20px; }
+
+.caricon { display: block; width: 64px; height: 64px; margin: 0 auto; background-position: center center; background-repeat: no-repeat; }
+.caricon.icon-oil { background-image: url(../images/checkoil-ok.png); }
+.caricon.icon-notice { background-image: url(../images/checkengine-ok.png); }
+.caricon.icon-warning { background-image: url(../images/warning.png); }
+.caricon.icon-oil-now { background-image: url(../images/checkoil-now.png); }
+.caricon.icon-notice-now { background-image: url(../images/checkengine-now.png); }
+.caricon.icon-warning-now { background-image: url(../images/warning-now.png); }
+
+#wak-edit-car-form .form-group { margin-bottom: 8px; }
+
+#wak-view-car-log .modal-body { padding-left: 0; padding-right: 0; }
+#wak-view-car-log .modal-body .row { margin-bottom: 12px; font-size: 12px; }
+#wak-view-car-log .modal-body .border-bottom { border-bottom: 1px solid #dedede; line-height: 24px; }
+#wak-view-car-log .modal-body #new-log-entry-form { padding-left: 12px; padding-right: 12px; }
+
+#new-log-entry-form > div { padding: 12px 0; border-top: 1px solid #dedede; }
+
+#car-log-entry-action-row { padding-top: 24px; }
+#wak-log-entry-list em { color: #ddd; }
+#wak-log-entry-list .row { border-bottom: 1px solid #efefef; }
+#wak-log-entry-list p { font-size: 12px; line-height: 16px; }
+#wak-log-entry-list .delete-car-log-entry { }
+
+#full-car-log-wrap .widget { margin-bottom: 24px; }
+#full-car-log-wrap .row { margin-bottom: 15px; }
+#full-car-log-wrap .row .entry-body { padding: 0 12px 12px 12px; border-bottom: 1px solid #dedede; }
+#full-car-log-wrap .row .entry-details { font-size: 12px; line-height: 18px; font-style: italic; color: gray; padding: 0 12px 6px 12px; }
+
+#maintenance-log-sorting { margin-bottom: 24px; }
+#maintenance-log-body .row > div { padding-left: 6px; padding-right: 6px; }
+#maintenance-log-body .row p { margin-bottom: 0; }
+
+.spent-on-car { }
+.spent-on-car .zero { color: gray; }
+
+aside.widget p { font-size: 12px; line-height: 18px; }
+.widget-wak-mycars-log form .half { width: 80%; display: inline; }
+.widget-wak-mycars-log form .submit-row { padding-top: 24px; }

@@ -1,0 +1,5 @@
+.recall-wrap { margin-bottom: 24px; padding-top: 12px; border-top: 1px solid #dedede; }
+.recall-wrap p { font-size: 12px; line-height: 18px; }
+.recall-wrap ul { list-style-type: none; padding: 0; margin: 0 0 12px 0; }
+.recall-wrap ul li { font-size: 14px; line-height: 20px; }
+.recall-wrap ul li strong { display: inline-block; width: 40%; }

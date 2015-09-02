@@ -1,0 +1,14 @@
+#wak-signup form { padding-top: 0; }
+#wak-signup form .form-group .short { width: 35%; }
+#wak-signup form .form-group .half { width: 50%; }
+#wak-signup form .submit-row { padding-top: 32px; }
+#wak-signup form .checkbox span { font-style: italic; font-size: 10px; padding: 0 12px; }
+#wak-signup form h4 { margin-bottom: 0; }
+#wak-signup form h4 a { display: block; }
+#wak-signup .nav-tabs > li > a { line-height: 48px; }
+#wak-signup .tab-pane { padding-top: 32px; }
+
+#wak-signup .nav-tabs > li.active > a, #wak-signup .nav-tabs > li.active > a:hover, #wak-signup .nav-tabs > li.active > a:focus, #wak-signup .nav-tabs.nav-justified > .active > a, #wak-signup .nav-tabs.nav-justified > .active > a, #wak-signup .nav-tabs.nav-justified > .active > a:hover, #wak-signup .nav-tabs.nav-justified > .active > a:focus { border-bottom-color: rgb(241, 241, 241); }
+
+#password-recovery { padding: 48px 0; }
+#password-recovery h1 { margin-bottom: 24px; }

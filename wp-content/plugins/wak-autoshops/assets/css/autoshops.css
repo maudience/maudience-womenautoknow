@@ -1,0 +1,115 @@
+#the-content .row { margin-bottom: 48px; }
+
+#locate-autoshop { padding: 24px 0 48px 0; }
+#locate-autoshop form { margin: 0 0 0 0; padding-top: 24px; }
+#locate-autoshop form input[type="text"], #locate-autoshop form select { border-color: #EC008B; }
+#locate-autoshop .row { margin-bottom: 6px; }
+
+.autoshops { padding-bottom: 24px; border-bottom: 1px solid #dedede; margin-bottom: 24px; }
+
+.autoshops h4 a, .autoshops h2 a, #carousel-autoshop-reviews a, #wak-users-reviews a, #wak-my-autoshops a { color: #333333; color: rgb(51,51,51); }
+
+.autoshops.pledged h4 a, .autoshops.pledged h2 a, .pledged > h2, #carousel-autoshop-reviews .pledged a, #wak-users-reviews .pledged a, #wak-my-autoshops .pledged a { color: #EC008B; color: rgb(236,0,139); }
+
+.autoshops.pledged h4 a.btn-default, #carousel-autoshop-reviews .pledged a.btn-default, #wak-users-reviews .pledged a.btn-default, #wak-my-autoshops .pledged a.btn-default { color: #333; }
+
+.autoshops.premium h4 a, .autoshops.premium h2 a, .premium > h2, #carousel-autoshop-reviews .premium a, #wak-users-reviews .premium a, #wak-my-autoshops .premium a { color: #1675DB; color: rgb(22, 117, 219); }
+
+.autoshops h4 small { font-size: 12px; line-height: 24px; }
+
+.autoshops h4 small { display: block; font-size: 12px; line-height: 18px; padding-top: 6px; }
+body.single-autoshops .autoshops h4 small { display: inline; }
+body.single-autoshops #main-content { padding-top: 48px; }
+
+#wak-my-autoshops .widget { margin-top: 12px; margin-bottom: 24px; }
+
+th#autoshop-name { width: auto; }
+th#autoshop-zip { width: 5%; }
+th#autoshop-state { width: 15%; }
+
+#loading-wak-autoshop-search { background-color: rgba(33,33,33,0.5); color: white; }
+#loading-wak-autoshop-search .progress-box { text-align: center; }
+#loading-wak-autoshop-search .progress-box h5 { color: white; letter-spacing: 1px; text-transform: uppercase; }
+#loading-wak-autoshop-search .progress-box .indicator { margin: 0 0 0 0; }
+#loading-wak-autoshop-search .progress-box .indicator i { font-size: 48px; line-height: 120px; }
+
+.wak-autoshop-links { display: block; width: 100%; float: none; clear: both; text-align: center; }
+.wak-autoshop-links a { display: block; width: 33%; float: left; }
+.wak-autoshop-links .facebook { color: #3b5998; }
+.wak-autoshop-links .twitter { color: #55acee; }
+.wak-autoshop-links .website { color: #EC008B; }
+
+#wak-sort-results { margin: 24px 0; }
+#wak-found-rows strong { color: #EC008B; color: rgb(236,0,139); }
+
+body input[placeholder="placeholder"] { color: #dedede; }
+
+body input[type="text"].form-control, body input[type="number"].form-control, body input[type="email"].form-control, body input[type="date"].form-control, body input[type="password"].form-control, body select.form-control { box-shadow: none; border-radius: 0; border-color: white; }
+body .form-control:active { outline: none !important; }
+
+#wak-edit-car-form .form-group { margin-bottom: 8px; }
+
+#wak-autoshop-search-box { background-color: #EC008B; }
+#wak-autoshop-search-box h3 { color: white; margin: 24px 0; padding: 0 12px; }
+
+#search-wak-tabs ul { border-bottom-color: white; }
+#search-wak-tabs .nav-tabs > li { margin-bottom: 0; }
+#search-wak-tabs .nav-tabs li a { border-color: #dddddd; background-color: #dddddd; }
+#search-wak-tabs .nav-tabs li.active a { background-color: white; border-color: white; }
+
+#pledged-shop-search, #all-shop-search { background-color: white; border: 1px solid white; }
+#pledged-shop-search input[type="checkbox"], #all-shop-search input[type="checkbox"] { position: relative; margin-left: 0; }
+#pledged-shop-search .submit, #all-shop-search .submit, button.btn-blue { background-color: #161C63; border-color: #161C63; color: white; text-shadow: none; }
+
+#wak-shop-type-ledger {  }
+#wak-shop-type-ledger .row { padding: 12px 0; margin-left: -15px; margin-right: -15px; background-color: #ddd; margin-right: 0; }
+#wak-shop-type-ledger img { width: 25px; height: 25px; display: block; float: left; margin-right: 12px; }
+#wak-shop-type-ledger p { margin: 0 0 0 0; line-height: 25px; font-size: 10px; }
+
+.missing-feature-image { display: block; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; padding: 12px 0; margin-bottom: 12px; }
+.missing-feature-image h3 { margin-bottom: 0; color: #dedede; }
+#missing-photo-info { font-size: 12px; line-height: 18px; padding: 12px 0; margin-bottom: 0; color: #333; }
+
+.pledged-or-notpledged { text-align: center; text-transform: uppercase; margin-bottom: 24px; }
+
+/**
+ * 10.1 Mobile Large 620px
+ */
+@media screen and (min-width: 38.75em) {
+
+	#loading-wak-autoshop-search .progress-box { width: 100%; min-height: 320px; margin: 0 auto 0 auto; }
+	.wak-autoshop-links { height: 32px; margin-top: 0; border-top: none; padding-top: 0; }
+	.wak-autoshop-links a { font-size: 32px; line-height: 32px; }
+    footer h4.widget-title { font-size: 16px; }
+    footer .widget { font-size: 12px; line-height: 18px; }
+    footer img.medium { display: none; }
+    #website-footer footer #company-details { padding-left: 0; }
+    footer iframe { max-height: 200px; }
+    #website-cc { text-align: center; }
+    #wak-forgot-pwd-link { padding: 8px 0; }
+    #list-of-autoshops { padding-left: 0; padding-right: 0; }
+    #locate-autoshop { padding: 24px 0; }
+
+}
+
+/**
+ * 10.2 Tablet Small 740px
+ */
+@media screen and (min-width: 46.25em) {
+
+	#loading-wak-autoshop-search .progress-box { width: 320px; height: 480px; margin: 15% auto 0 auto; }
+	.wak-autoshop-links { height: 48px; margin-top: 12px; border-top: 1px solid #dedede; padding-top: 12px; }
+	.wak-autoshop-links a { font-size: 32px; line-height: 48px; }
+    h4 { font-size: 16px; line-height: 20px; }
+    footer h4.widget-title { font-size: 16px; }
+    footer .widget { font-size: 12px; line-height: 18px; }
+    footer img.medium { display: none; }
+    #website-footer footer #company-details { padding-left: 0; }
+    footer iframe { max-height: 200px; }
+    #website-cc { text-align: center; }
+    #wak-forgot-pwd-link { padding: 8px 0; }
+    #wak-autoshop-search-box .boxed { padding-left: 0; padding-right: 0; }
+    #list-of-autoshops { padding-left: 0; padding-right: 0; }
+    #locate-autoshop { padding: 24px 0; }
+
+}
